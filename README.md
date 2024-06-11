@@ -3,7 +3,7 @@
 #### How to run example:
 
 1. Ensure that gcloud is installed on your terminal
-2. Ensure that you have a service account setup on the GCP project that you will be using, or have permissions to impersonate a service account
+2. Ensure that you have a service account setup on the GCP project that you will be using, or have permissions to impersonate a service account (you need the role _Service Account Token Creator_)
     - for impersonating a service account, run the following commands to authenticate before continuing:
     - ```sh
       gcloud config set project <gcp project name>
